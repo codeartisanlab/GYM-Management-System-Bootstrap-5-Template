@@ -1,57 +1,57 @@
 <?php include('header.php'); ?>
     <!-- Main Start -->
     <section class="container my-4">
-    	<h1 class="text-center mb-4 section-heading border-bottom pb-2">Pricing</h1>
+    	<h1 class="text-center mb-4 section-heading border-bottom pb-2">Plans</h1>
   <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Free</h4>
+            <h4 class="my-0 fw-normal">Basic</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$150<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>Exercise Schedule</li>
+              <li>Diet Plan</li>
+              <li>...</li>
+              <li>...</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            <a href="checkout.php" class="w-100 btn btn-lg btn-outline-primary">Get started</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Pro</h4>
+            <h4 class="my-0 fw-normal">Medium</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$250<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li>Exercise Schedule</li>
+              <li>Diet Plan</li>
+              <li>Individual Coach</li>
+              <li>Cardio</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-primary">
           <div class="card-header py-3 text-white bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Enterprise</h4>
+            <h4 class="my-0 fw-normal">Advance</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$350<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>Exercise Schedule</li>
+              <li>Diet Plan</li>
+              <li>Individual Coach</li>
+              <li>Cardio & Functional Training</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
           </div>
         </div>
       </div>
@@ -64,50 +64,35 @@
         <thead>
           <tr>
             <th style="width: 34%;"></th>
-            <th style="width: 22%;">Free</th>
-            <th style="width: 22%;">Pro</th>
-            <th style="width: 22%;">Enterprise</th>
+            <th style="width: 22%;">Basic</th>
+            <th style="width: 22%;">Medium</th>
+            <th style="width: 22%;">Advance</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Public</th>
+            <th scope="row" class="text-start">Exercise Schedule</th>
             <td><i class="bi bi-check-lg"></i></td>
             <td><i class="bi bi-check-lg"></i></td>
             <td><i class="bi bi-check-lg"></i></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Private</th>
-            <td></td>
-            <td><i class="bi bi-check-lg"></i></td>
-            <td><i class="bi bi-check-lg"></i></td>
-          </tr>
-        </tbody>
-
-        <tbody>
-          <tr>
-            <th scope="row" class="text-start">Permissions</th>
+            <th scope="row" class="text-start">Diet Plan</th>
             <td><i class="bi bi-check-lg"></i></td>
             <td><i class="bi bi-check-lg"></i></td>
             <td><i class="bi bi-check-lg"></i></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Sharing</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <th scope="row" class="text-start">Individual Coach</th>
+            <td><i class="bi bi-x-lg text-danger"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Unlimited members</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-          </tr>
-          <tr>
-            <th scope="row" class="text-start">Extra security</th>
-            <td></td>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <th scope="row" class="text-start">Cardio & Functional Training</th>
+            <td><i class="bi bi-x-lg text-danger"></i></td>
+            <td><i class="bi bi-x-lg text-danger"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
           </tr>
         </tbody>
       </table>
